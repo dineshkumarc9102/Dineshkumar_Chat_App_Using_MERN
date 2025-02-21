@@ -1,0 +1,37 @@
+BACKEND -> 
+npm init
+npm i express mongoose dotenv jsonwebtoken bcryptjs cookie-parser cloudinary socket.io
+npm i nodemon -D
+npm i cors
+
+package.josn -> script ->
+"dev": "nodemon src/index.js"
+package.josn -> 
+"type": "module",
+
+
+
+------------------------------------------------------------------------------------------------------------------------
+FRONTEND ->
+
+npm create vite@latest
+npm i react-router-dom react-hot-toast
+ 
+npm install -D tailwindcss@3 postcss autoprefixer
+npx tailwindcss init -p
+
+npm i -D daisyui@latest
+
+npm i axios zustand
+
+npm i lucide-react
+
+npm i date-fns
+
+npm i socket.io-client
+
+
+----------------------------------------------------------------------------
+ROOT ->
+
+npm init -y
